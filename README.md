@@ -16,7 +16,7 @@ My focus areas are practical automation, front-end development, and integrating 
 
 ## Experience
 
-**Office Assistant — Inovare Contabilidade**
+**Office Technologist assistant — Inovare Contabilidade**
 *October 2024 – Present*
 
 - Designed and built the company's first website from the ground up, doubling overall site and Instagram engagement
