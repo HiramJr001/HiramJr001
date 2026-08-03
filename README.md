@@ -31,15 +31,17 @@ My focus areas are practical automation, front-end development, and integrating 
 
 ## Projects
 
-**Hub Office Tools** — *Personal / internal tool suite, 2025 – Present*
-
-A single-page internal tool suite for office use, including:
-- A Brazilian labor law calculator (severance, vacation pay, 13th salary, overtime) validated against official government tax tables
-- A digital agenda module with natural-language Portuguese date parsing, a monthly calendar grid, task management, and browser-based persistence
-- An AI-powered document summarizer using a hybrid text-extraction and image-rasterization approach to handle both digital and scanned PDFs
-
-**Tech stack:** Vanilla JavaScript, HTML/CSS, localStorage, PDF.js
-
+BackOffice OS — Internal Operations Suite 2025 – Present
+github.com/HiramJr001/backoffice-os — solo build, in daily production use
+Document Guardian engine: locates expiry dates across a network share of 80,000+ client documents using a four-level cascading filter
+(folder pruning, filename ranking, native PDF text, OCR fallback), so expensive OCR runs on a small fraction of files instead of all of them.
+Made the scan resumable: each company is committed to a SQLite checkpoint across CPU-1 worker processes, so a dropped network share,
+reboot or manual stop resumes instead of restarting a multi-hour job.
+Built confidence-scored extraction that routes low-evidence documents to manual review instead of guessing a date, with a parser written
+for real OCR noise — broken spacing, missing accents, "valid for N months" plus issue date.
+Shipped it as a single Windows installer (electron-builder, PyInstaller, embedded Tesseract): the end user installs one .exe with no runtime
+setup. Document categories are declarative profiles, so adding a type needs no engine change.
+Stack: Python, PyMuPDF, Tesseract OCR, SQLite, Flask, openpyxl, JavaScript, Electron, PyInstaller
 ---
 
 ## Education
