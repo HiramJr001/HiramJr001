@@ -31,8 +31,8 @@ My focus areas are practical automation, front-end development, and integrating 
 
 ## Projects
 
-BackOffice OS — Internal Operations Suite 2025 – Present
-github.com/HiramJr001/backoffice-os — solo build, in daily production use
+**BackOffice OS — Internal Operations Suite 2025 – Present**
+- github.com/HiramJr001/backoffice-os — solo build, in daily production use
 Document Guardian engine: locates expiry dates across a network share of 80,000+ client documents using a four-level cascading filter
 (folder pruning, filename ranking, native PDF text, OCR fallback), so expensive OCR runs on a small fraction of files instead of all of them.
 Made the scan resumable: each company is committed to a SQLite checkpoint across CPU-1 worker processes, so a dropped network share,
