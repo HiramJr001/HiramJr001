@@ -2,7 +2,7 @@
 
 Software developer focused on internal tooling, process automation, and AI-assisted document processing. Based in Ituverava, SP, Brazil.
 
-[LinkedIn](https://linkedin.com/in/hiram-galindo-jr-b0bb33330) · [Email](mailto:hiramgalindojr11@gmail.com) · +55 16 99247-3333
+(https://hiramjr001.github.io) [LinkedIn](https://linkedin.com/in/hiram-galindo-jr-b0bb33330) · [Email](mailto:hiramgalindojr11@gmail.com) · +55 16 99247-3333
 
 ---
 
